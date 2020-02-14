@@ -67,6 +67,7 @@ class DCGAN(object):
     else:
       self.data = glob(os.path.join("./data", self.dataset_name, self.input_fname_pattern))
       #Check number of channels
+      print("data dire is %s", self.data)
       imreadImg = imread(self.data[0])
       if len(imreadImg.shape) >= 3: #check if image is a non-grayscale image by checking channel number
         self.c_dim = imread(self.data[0]).shape[-1]
