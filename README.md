@@ -1,5 +1,7 @@
 # AnoGAN in tensorflow
 
+Original repository: https://github.com/LeeDoYup/AnoGAN-tf
+
 Tensorflow implementation of [Anomaly GAN (AnoGAN)](https://arxiv.org/abs/1703.05921).
 
 This model detect anomaly part in images, after training DCGAN with normal dataset.
